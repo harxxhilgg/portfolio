@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; 
+    padding: 0; 
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3f3f3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+header {
+    user-select: none;
+    width: 100%;
+    height: 80px;
+    background: #09090b;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0 50px;
+}
+
+h2 {
+    color: #f3f3f3;
+    margin: 1rem 3rem;
+}
+
+.logo {
+    display: flex;
+    margin-right: auto;
+}
+
+.hero {
+    height: 55px;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color: #f3f3f3;
+    font-size: 17px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 100ms;
+    margin: 0 5px;
+}
+
+.nav-bar ul li a:hover {
+    color: #09090b;
+    background: #f3f3f3;
+}
+
+.nav-bar ul li a:active {
+    color: #09090b;
+    background: #f3f3f3;
+}
+
+.footer {
+    margin-top: auto;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    background-color: #09090b;
+    user-select: none;
+}
+
+.footer .socials {
+    text-align: center;
+}
+
+.footer .socials a { 
+    color: #f3f3f3;
+    border-radius: 50%;
+    font-size: 28px;
+    padding: 6px;
+    width: 50px; 
+    height: 50px;
+    line-height: 38px;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.footer .socials a:hover {
+    color: #09090b;
+    background-color: #f3f3f3;
+    transition: 100ms;
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        height: 60px;
+        padding: 0 20px;
+    }
+
+    .nav-bar ul li a {
+        display: block;
+        color: #f3f3f3;
+        font-size: 15px;
+        padding: 5px 10px;
+        border-radius: 50px;
+        transition: 100ms;
+        margin: 0 2px;
+    }
+
+    .hero {
+        height: 45px;
+        padding-left: 0.5rem
+    }
+
+    h2 {
+        display: none;
+    }
+
+    .footer {
+        padding: 10px 0;
+    }
+
+    .footer .socials a {
+        font-size: 24px;
+        margin: 0 2px;
+    }
+}
