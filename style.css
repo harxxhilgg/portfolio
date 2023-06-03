@@ -69,8 +69,6 @@ header h2 {
     color: #09090b;
 }
 
-/* body */
-
 /* home.html */
 
 .container {
@@ -81,7 +79,7 @@ header h2 {
 }
 
 .body-hero {
-    height: 30rem;
+    height: 16rem;
 }
 
 .container h1 {
@@ -112,13 +110,22 @@ header h2 {
     font-weight: bold;
 }
 
+.h2-span {
+    text-decoration: underline;
+}
+
+.h1-underline {
+    text-decoration: underline;
+}
+
 /* projects.html */
 
 .projects-p {
-    font-size:30px;
+    font-size: 35px;
     text-align: center;
-    font-weight: 600;
-    margin: 3rem auto;
+    font-weight: 700;
+    margin: 3rem auto 1rem auto;
+    text-decoration: underline;
 }
 
 .list-non-bullet {
@@ -139,7 +146,7 @@ header h2 {
 }
 
 .bc {
-    border: 2px solid #09090b; 
+    border: 2px solid #09090b;
 }
 
 .showcase-list h2 {
