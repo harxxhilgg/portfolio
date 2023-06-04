@@ -69,7 +69,7 @@ header h2 {
     color: #09090b;
 }
 
-/* home.html */
+/* index/home */
 
 .container {
     display: grid;
@@ -118,7 +118,7 @@ header h2 {
     text-decoration: underline;
 }
 
-/* projects.html */
+/* projects */
 
 .projects-p {
     font-size: 35px;
@@ -146,7 +146,7 @@ header h2 {
 }
 
 .bc {
-    border: 2px solid #09090b;
+    background: #e5e5eb;
 }
 
 .showcase-list h2 {
@@ -181,7 +181,7 @@ header h2 {
 }
 
 .liveProject:hover, .sourceCode:hover {
-    background-color: #f3f3f3;
+    background-color: #e5e5eb;
     color: #09090b;
     outline: 2px solid #09090b;
     transition: 100ms;
@@ -191,8 +191,43 @@ header h2 {
     font-weight: normal;
 }
 
+/* blogs */
 
+.all-blogs {
+    margin: 1rem 15rem 2rem 15rem;
+    background: #c8c8c9;
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 1rem;
+}
 
+.section-blogs {
+    background: #e5e5eb;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.blog-header {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.blog-date {
+    font-size: 15px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.text-bold-desc {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0.1rem;
+    text-decoration: underline;
+}
+
+.text-light-desc {
+    font-size: 15px;
+}
 
 /* footer */
 
@@ -215,9 +250,9 @@ header h2 {
     padding: 6px;
     width: 50px; 
     height: 50px;
-    line-height: 38px;
+    line-height: 40px;
     display: inline-block;
-    margin: 0 8px;
+    margin: 0 2px;
 }
 
 .footer .socials a:hover {
