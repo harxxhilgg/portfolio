@@ -142,7 +142,6 @@ header h2 {
 
 .container-center {
     max-width: 900px;
-    width: 100%
 }
 
 .bc {
@@ -159,11 +158,11 @@ header h2 {
 
 .liveProject {
     border: none;
-    max-width: 140px;
     padding: 0.6rem 1.2rem; 
     background-color: #09090b;
     color: #f5f5f5; 
     border-radius: 2rem;
+    margin: 0.5rem;
 }
 
 .link {
@@ -173,7 +172,7 @@ header h2 {
 }
 
 .sourceCode {
-    margin: 1rem;
+    margin: 0.5rem;
     padding: 0.6rem 1.2rem; 
     border-radius: 2rem;
     background-color: #09090b;
@@ -261,6 +260,11 @@ header h2 {
 }
 
 @media only screen and (max-width: 900px) {
+
+    body {
+        min-height: 100dvh;
+    }
+
     header {
         height: 60px;
         padding: 0 20px;
@@ -292,5 +296,69 @@ header h2 {
     .footer .socials a {
         font-size: 24px;
         margin: 0 2px;
+    }
+
+    /*
+    index
+    */
+
+    .body-hero {
+        height: 14rem;
+    }
+
+    .container h1 {
+        font-size: 35px;
+    }
+
+    .container h2 {
+        font-size: 31px;
+    }
+
+    .container p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    /*
+    projects
+    */
+
+    .projects-p {
+        margin: 2rem auto 1rem auto;
+        font-size: 30px;
+    }
+
+    .showcase-list {
+        margin: 2rem 1rem;
+    }
+
+    .showcase-list h2 {
+        font-size: 23px;
+    }
+
+    .liveProject {
+        padding: 0.4rem 0.8rem;
+        margin: 0.1rem;
+    }
+
+    .sourceCode {
+        padding: 0.4rem 0.8rem; 
+        margin: 0.1rem;
+    }
+
+    /*
+    blogs
+    */
+
+    .all-blogs {
+        margin: 0;
+    }
+
+    .section-blogs {
+        padding: 1rem;
+    }
+
+    .blog-header {
+        font-size: 21px;
     }
 }
