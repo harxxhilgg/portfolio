@@ -110,6 +110,12 @@ header h2 {
     font-weight: bold;
 }
 
+.neoglink a:hover {
+    text-decoration: underline;
+    font-size: 1.3rem;
+    transition: 500ms;
+}
+
 .h2-span {
     text-decoration: underline;
 }
